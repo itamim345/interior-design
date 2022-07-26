@@ -8,6 +8,7 @@ body {
     min-height: 100vh;
     color: #fff;
     font-family: Roboto;
+    margin: 0;
 
 }
 /* nav-area css */
@@ -40,7 +41,63 @@ nav {
 }
 .divider {
     border-top: 3px solid #fff;
-    width: 55vw;
+    width: 56vw;
     float: right;
     margin-right: 5%;
+}
+/* main area css */
+main {
+    padding: 2% 5%;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    position: relative;
+}
+.left-area {
+    width: 50%;
+}
+.right-area {
+    width: 50%;
+}
+.left-area h2 {
+    font-size: 4vw;
+    line-height: 1.5;
+}
+.left-area button{
+    background-color: transparent;
+    border-radius: 30px;
+    padding: 10px 30px;
+    color: #fff;
+    border: 2px solid #fff;
+    font-size: 25px;
+    font-weight: bolder;
+    margin-bottom: 10vh;
+}
+.right-area h4 {
+    margin: 0;
+    font-weight: normal;
+}
+.icon-box1{
+    position: absolute;
+    top: 30%;
+    right:15%;
+    color: #fff;
+    width: 200px;
+    background: rgb(48 69 86 / 80%);
+    padding: 20px;
+}
+.icon-box2 {
+    position: absolute;
+    top: 66%;
+    right:35%;
+    color: #fff;
+    width: 200px;
+    background: rgb(48 69 86 / 80%);
+    padding: 20px;
+}
+.right-area img {
+    background: #fff;
+    height: 2vw;
+    padding: 0px 10px;
+    border-radius: 10px;
 }
