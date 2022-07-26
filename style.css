@@ -1,0 +1,46 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body {
+    background-image: url('img/living-room-bg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 100vh;
+    color: #fff;
+    font-family: Roboto;
+
+}
+/* nav-area css */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 5%;
+}
+.contact {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.call-details p {
+    margin: 0;
+}
+.menu-area a{
+    text-decoration: none;
+    margin: 0 10px;
+    color: #fff;
+}
+.logo-area {
+    width: 30%;
+}
+.logo-area img{
+    background: #fff;
+    padding: 5px;
+    border-radius: 10px;
+}
+.divider {
+    border-top: 3px solid #fff;
+    width: 55vw;
+    float: right;
+    margin-right: 5%;
+}
